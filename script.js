@@ -1,6 +1,6 @@
 let cont = document.querySelector("#container")
 let btn = document.querySelector("#btn")
-let x=0;
+let x=16;
 btn.addEventListener('click',()=> {
     x = prompt("enter number of squares per row")
     if(x>100 || x<=0){
